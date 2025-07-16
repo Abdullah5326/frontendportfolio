@@ -1,0 +1,181 @@
+/* **************************************** */
+/* ***********For below 900 screens************** */
+/* **************************************** */
+@media (max-width: 75rem) {
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .hero-description-text {
+    padding: 0 15rem;
+  }
+}
+@media (max-width: 56em) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--nav-background);
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    gap: 4.8rem;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease-out;
+  }
+
+  .header {
+    padding: 0 2.4rem;
+  }
+
+  .hero-description-text {
+    font-size: 1.4rem;
+    padding: 0 2.4rem;
+  }
+
+  .mobile-nav {
+    transform: translateX(0);
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-mobile {
+    display: block;
+    background-color: none;
+  }
+  .header {
+    margin-bottom: 1.6rem;
+  }
+
+  .section {
+    padding: 8.8rem 2.4rem;
+  }
+
+  .feature-box {
+    padding: 2.4rem 1.6rem;
+  }
+}
+
+@media (max-width: 43.5em) {
+  .pri-heading {
+    font-size: 4.1rem;
+  }
+
+  .header {
+    margin-bottom: -3.4rem;
+  }
+
+  .section--1 {
+    padding: 0;
+  }
+
+  .hero-description-text {
+    font-size: 1.4rem;
+    padding: 0 2.4rem !important;
+  }
+
+  .btn {
+    border: none;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+  }
+
+  .dev-img {
+    height: 20rem;
+  }
+
+  .profile-photo {
+    height: 25rem;
+  }
+
+  .sec-heading {
+    font-size: 4rem;
+    margin-bottom: 6.4rem;
+  }
+
+  .education-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2.4rem;
+    row-gap: 3.2rem;
+  }
+
+  .acadmic-details {
+    grid-column: auto;
+  }
+
+  .non-acadmic-details {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .section-skills {
+    margin-top: -9.4rem;
+  }
+
+  .margin-bottom-lg {
+    margin-bottom: 9.6rem;
+  }
+
+  .skills {
+    gap: 4.8rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 4.8rem;
+    align-items: start;
+  }
+}
+
+@media (max-width: 31.25rem) {
+  .section {
+    padding: 6.4rem 2.4rem;
+  }
+  .pri-heading {
+    font-size: 3rem;
+  }
+
+  .header {
+    margin-bottom: -3.4rem;
+  }
+
+  .hero-description-text {
+    font-size: 1.4rem;
+    padding: 0 2.4rem;
+  }
+
+  .hero-btns {
+    margin-bottom: 2.4rem;
+  }
+
+  .dev-img {
+    height: 16rem;
+  }
+
+  .sec-heading {
+    font-size: 3.6rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .section-about {
+    margin-bottom: 9.4rem !important;
+  }
+
+  .profile-photo {
+    height: 20rem;
+  }
+
+  .feature-box .ter-heading {
+    font-size: 2rem;
+  }
+
+  .phone-links {
+    gap: 0.8rem;
+  }
+}
