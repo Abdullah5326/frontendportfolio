@@ -83,7 +83,6 @@ const movingAnimation = function () {
     const [entry] = entries;
     if (!entry.isIntersecting) return;
     entry.target.classList.remove("section-hidden");
-    console.log(entry.target);
   };
 
   const observer = new IntersectionObserver(handleAnimation, {
@@ -94,3 +93,28 @@ const movingAnimation = function () {
   sections.forEach((section) => observer.observe(section));
 };
 movingAnimation();
+
+btnAbout.addEventListener("click", function () {
+  document.documentElement.style.setProperty("--sec-color", "#4d5154");
+  document.documentElement.style.setProperty("--nav-background", "#495057");
+  document.documentElement.style.setProperty(
+    "--sticky-nav-background-color",
+    "#495057"
+  );
+  document.documentElement.style.setProperty("--pri-dark-color", "#fff");
+  document.documentElement.style.setProperty("--text-color", "#fff");
+  document.documentElement.style.setProperty("--pri-color", "#fff");
+});
+
+// :root {
+//   --pri-color: #212529;
+//   --pri-dark-color: #4d5154;
+//   --sec-color: #fff;
+//   --shadow-color: rgba(0, 0, 0, 0.1);
+//   --html-tag-color: #ff6b6b;
+//   --js-tag-color: #ffd43b;
+//   --css-tag-color: #4dabf7;
+//   --text-color: #495057;
+//   --nav-background: rgba(241, 243, 245, 0.95);
+//   --sticky-nav-background-color: rgba(255, 255, 255, 0.884);
+// }

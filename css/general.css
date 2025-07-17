@@ -114,6 +114,7 @@ a:visited {
   padding: 1.6rem 3.2rem;
   font-size: 1.8rem;
   transition: all 0.3s;
+  border-radius: 2.4rem;
 }
 
 .btn-full:link,

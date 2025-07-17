@@ -1,5 +1,5 @@
 /* **************************************** */
-/* ***********For below 900 screens************** */
+/* ***********For below 1200 screens************** */
 /* **************************************** */
 @media (max-width: 75rem) {
   .header {
@@ -16,6 +16,7 @@
     flex-direction: column;
     background-color: var(--nav-background);
     justify-content: center;
+    /* align-items: stretch; */
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -27,7 +28,14 @@
   }
 
   .header {
-    padding: 0 2.4rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 6.4rem;
+  }
+
+  .section-hero {
+    justify-content: center;
+    height: 100vh;
   }
 
   .hero-description-text {
