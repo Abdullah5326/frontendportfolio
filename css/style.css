@@ -54,6 +54,10 @@
   gap: 0.8rem;
 }
 
+.nav-icon {
+  display: none;
+}
+
 .nav-link:hover,
 .nav-link:active {
   box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.5);
@@ -177,9 +181,10 @@
   box-shadow: 0 1.2rem 2.4rem var(--shadow-color);
   padding: 3.2rem 2.4rem;
   color: var(--pri-color);
-  border-top: var(--pri-color) solid 5px;
+  border-top: var(--pri-color) solid 8px;
   border-radius: 1.2rem;
   overflow: hidden;
+  margin-bottom: 3.6rem;
 }
 
 .feature-icon {
@@ -214,6 +219,11 @@
 .project-img {
   width: 29rem;
   transform: scale(0.9);
+  transition: all 0.3s;
+}
+
+.project-img:hover {
+  transform: scale(1);
 }
 
 .tags {
@@ -230,7 +240,7 @@
   background-color: var(--sec-color);
   color: var(--text-color);
   justify-self: flex-end;
-  width: 30rem;
+  width: 33rem;
   text-align: center;
   border-top: 2px solid rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
@@ -238,6 +248,7 @@
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
+  border-radius: 0;
 }
 
 .arrow-container {

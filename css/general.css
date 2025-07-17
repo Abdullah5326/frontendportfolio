@@ -77,7 +77,7 @@ a:visited {
 .sec-heading {
   font-size: 4.8rem;
   font-weight: 500;
-  margin-bottom: 9.6rem;
+  margin-bottom: 4.8rem;
 }
 
 .ter-heading {
@@ -90,7 +90,6 @@ a:visited {
 }
 
 .section-title {
-  /* max-width: 80rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,7 +101,7 @@ a:visited {
 }
 
 .margin-bottom-lg {
-  margin-bottom: 15rem;
+  margin-bottom: 9.4rem;
 }
 
 .alingning-center {
