@@ -12,7 +12,6 @@ FONT SIZE SYSTEM (px)
 
 :root {
   --pri-color: #212529;
-  --pri-dark-color: #4d5154;
   --sec-color: #fff;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --html-tag-color: #ff6b6b;
@@ -20,7 +19,7 @@ FONT SIZE SYSTEM (px)
   --css-tag-color: #4dabf7;
   --text-color: #495057;
   --nav-background: rgba(241, 243, 245, 0.95);
-  --sticky-nav-background-color: rgba(255, 255, 255, 0.884);
+  --sticky-nav-background-color: rgba(255, 255, 255, 0.7);
 }
 
 * {
@@ -32,6 +31,7 @@ FONT SIZE SYSTEM (px)
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  background-color: var(--sec-color);
 }
 
 body {
@@ -166,4 +166,9 @@ a:visited {
 .section-hidden {
   transform: translateY(3rem);
   opacity: 0;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
 }

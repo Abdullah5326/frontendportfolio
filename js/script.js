@@ -94,17 +94,10 @@ const movingAnimation = function () {
 };
 movingAnimation();
 
-btnAbout.addEventListener("click", function () {
-  document.documentElement.style.setProperty("--sec-color", "#4d5154");
-  document.documentElement.style.setProperty("--nav-background", "#495057");
-  document.documentElement.style.setProperty(
-    "--sticky-nav-background-color",
-    "#495057"
-  );
-  document.documentElement.style.setProperty("--pri-dark-color", "#fff");
-  document.documentElement.style.setProperty("--text-color", "#fff");
-  document.documentElement.style.setProperty("--pri-color", "#fff");
-});
+// btnAbout.addEventListener("click", function () {
+//   document.documentElement.style.setProperty("--sec-color", "--pri-color");
+//   document.documentElement.style.setProperty("--text-color", "--sec-color");
+// });
 
 // :root {
 //   --pri-color: #212529;

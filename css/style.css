@@ -120,13 +120,30 @@
 /* ***********About Me************** */
 /* **************************************** */
 .section-about {
-  background-color: var(--pri-color);
-  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: var(--pri-color); */
+  /* background-color: rgba(0, 0, 0); */
   margin-top: 9.6rem;
   margin-bottom: 1px;
   color: var(--sec-color);
   padding: 6.4 6.4rem 0;
   font-size: 1.4rem;
+  color: var(--text-color);
+  color: var(--pri-color);
+  border-top: 1px solid #eee;
+}
+
+.general-details,
+.acadmic-details,
+.non-acadmic-details {
+  /* border: 1px solid black; */
+  box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 2.4rem;
+  max-width: 35rem;
+  width: 100%;
+  padding: 3.2rem 2.4rem;
+  border-radius: 1.2rem;
+  /* border: 0.1px solid var(--pri-color); */
+  border-top: 8px solid var(--pri-color);
 }
 .education-container {
   display: flex;
@@ -136,9 +153,10 @@
 }
 
 .education-details {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 4.8rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4.8rem;
   margin-bottom: 9.6rem;
 }
 
