@@ -189,6 +189,12 @@
     margin-bottom: 9.4rem !important;
   }
 
+  .general-details,
+  .acadmic-details,
+  .non-acadmic-details {
+    padding: 3.2rem 1.2rem;
+  }
+
   .profile-photo {
     height: 20rem;
   }
